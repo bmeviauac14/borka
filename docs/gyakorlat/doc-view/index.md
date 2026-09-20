@@ -22,7 +22,7 @@ A kapcsolódó előadások és korábbi gyakorlatok anyaga:
 
 A gyakorlat elvégzéséhez szükséges eszközök:
 
-- Visual Studio 2022
+- Visual Studio 2026
 - Windows 10 vagy Windows 11 operációs rendszer (Linux és macOS nem alkalmas)
 
 ## A gyakorlat menete
@@ -67,7 +67,7 @@ Az alkalmazás a kódmennyiség minimális értéken tartása érdekében minima
 
 A cél az, hogy lássuk, milyen folyamatot követve, milyen lépésekben dolgozunk, mikor milyen tervezői lépéseket kell meghoznunk. Törekedjünk oktatói és hallgatói részről is az interaktivitásra, közösen hozzuk meg a döntéseket.
 
-Hozzunk létre egy új C# nyelvű „Window Form App” projektet (.NET 8-ast), legyen a neve FontEditor. Vegyünk fel egy osztálydiagramot: projekten jobb katt, _Add / New Item_, majd a megjelenő ablakban _Class Diagram_ kiválasztása, a neve maradhat az alapértelmezett. Állítsuk be, hogy a diagram mutassa majd a műveletek szignatúráit is (pl. jobb katt a háttéren, _Change Members Format / Display Full Signature_). A gyakorlat nagy részében ezt a diagramot fogjuk szerkeszteni.
+Hozzunk létre egy új C# nyelvű „Window Form App” projektet (.NET 10-est), legyen a neve FontEditor. Vegyünk fel egy osztálydiagramot: projekten jobb katt, _Add / New Item_, majd a megjelenő ablakban _Class Diagram_ kiválasztása, a neve maradhat az alapértelmezett. Állítsuk be, hogy a diagram mutassa majd a műveletek szignatúráit is (pl. jobb katt a háttéren, _Change Members Format / Display Full Signature_). A gyakorlat nagy részében ezt a diagramot fogjuk szerkeszteni.
 
 A kész osztálydiagram a következő, eddig fogunk fokozatosan eljutni:
 

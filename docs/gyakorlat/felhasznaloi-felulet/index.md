@@ -20,7 +20,7 @@ Kapcsolódó előadások: Vastagkliens alkalmazások fejlesztése.
 
 A gyakorlat elvégzéséhez szükséges eszközök:
 
-- Visual Studio 2022
+- Visual Studio 2026
 - Windows 10 vagy Windows 11 operációs rendszer (Linux és macOS nem alkalmas)
 
 ## Bevezető
@@ -47,7 +47,7 @@ A Window Forms alkalmazások legfontosabb koncepcióit a tárgy 3.-4. előadása
 
 A feladat során egy olyan Windows Forms alkalmazást készítünk el, amely egy egyszerű ablakban kiírja a „Hello world!” szöveget.
 
-1. Indítsuk el a Visual Studio 2022-t
+1. Indítsuk el a Visual Studio 2026-t
 
 2. Hozzunk létre egy C# nyelvű, *Windows Forms* típusú alkalmazást, mégpedig **.NET** platformra.
     1. Ehhez a VS indítóablakában jobb oldalt a *Create new project* gombon kell kattintani, majd a projekt létrehozó varázslóban a *Windows Forms App* sablont kell kiválasztani. Lényeges, hogy **NE** a *Windows Forms App (.NETFramework)* legyen! A sablon kikereséséhez használjuk az ablak kereső/szűrőmezőit, amennyiben szükséges. Kattintsunk a Next gombra.
@@ -55,7 +55,7 @@ A feladat során egy olyan Windows Forms alkalmazást készítünk el, amely egy
         1. A *Projekt name* és *Solution name* legyen `HelloWorldWF`
         2. Az útvonal a laborgépeken: `C:\Work\` alatt egy mappa, mely a saját nevünk vagy Neptun kódunk szerint van nevezve.
         3. Next gombbal következő oldalra váltás
-    3. A Framework mezőben válasszuk ki a *.NET 8.0 (Long term support)*-ot.
+    3. A Framework mezőben válasszuk ki a *.NET 10.0*-et.
 
     Futtassuk a kiinduló projektet, hogy lássuk, mit biztosít a kiinduló alkalmazáskeret (nem sokat, van egy egyszerű ablak). Állítsuk le a futó alkalmazást.
 
@@ -96,7 +96,7 @@ A feladat során egy olyan Windows Forms alkalmazást készítünk el, amely egy
 11. Az űrlapunk neve jelenleg `Form1`, mely szintén elég semmitmondó. Nevezzük át `MainForm`-ra, az alábbi lépéseket követve. Az átnevezést a Solution Explorerben tudjuk megtenni, itt több technikát is használhatunk. 
 
     !!! warning "Mielőtt átnevezzük az űrlapot"
-        Egy VS2022-es bug miatt fontos, hogy átnevezés előtt mindenképpen zárjuk be az űrlap designer felületét, és minden, az űrlaphoz tartozó fájlt. Ha nem tesszük meg, akkor az átnevezést követően különböző kellemetlen anomáliákat tapasztalhatunk (eltűnnek a vezérlők a felületről, nem lehet eseménykezelőket felvenni, furcsa hibákat jelez a designer stb.)
+        Egy Visual Studio bug miatt fontos, hogy átnevezés előtt mindenképpen zárjuk be az űrlap designer felületét, és minden, az űrlaphoz tartozó fájlt. Ha nem tesszük meg, akkor az átnevezést követően különböző kellemetlen anomáliákat tapasztalhatunk (eltűnnek a vezérlők a felületről, nem lehet eseménykezelőket felvenni, furcsa hibákat jelez a designer stb.)
 
     - Válasszuk ki a `Form1` elemet, majd még egyszer kattintsunk rajta bal gombbal: ekkor a név szerkeszthetővé válik (pont úgy dolgozunk, ahogy egy fájlt is átnevezünk Windows Fájlkezelőben/File Explorerben).
 
@@ -109,7 +109,7 @@ A feladat során egy olyan Windows Forms alkalmazást készítünk el, amely egy
     ![Rename Confirm](images/rename-confirm.png)
 
     !!! warning "Hiba átnevezés után"
-        Ekkor a VS2022 hajlamos egy hibaüzenetet megjeleníteni az űrlapunk helyén, amennyiben meg volt nyitva a designerben. Ne ijedjünk meg tőle, zárjuk be az űrlap tabfülét (vagy valamennyi megnyitott fájl tabfülét), és nyissuk meg újra a Solution Explorerben az űrlapot: ekkor a hiba eltűnik.
+        Ekkor a Visual Studio hajlamos egy hibaüzenetet megjeleníteni az űrlapunk helyén, amennyiben meg volt nyitva a designerben. Ne ijedjünk meg tőle, zárjuk be az űrlap tabfülét (vagy valamennyi megnyitott fájl tabfülét), és nyissuk meg újra a Solution Explorerben az űrlapot: ekkor a hiba eltűnik.
 
 12. A következő lépésben a gombkattintás eseményt fogjuk lekezelni: ennek hatására a `tbDemoText` `TextBox` vezérlőbe beírjuk a „Hello” szöveget. Egy űrlap/vezérlő eseményeinek megjelenítésére is a Properties ablak szolgál, csak át kell váltsunk az eseménymegjelenítő nézetére. Ehhez a Properties ablak felső részén található villám ikonon kell kattintanunk:
 

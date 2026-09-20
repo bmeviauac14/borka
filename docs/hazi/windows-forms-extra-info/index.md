@@ -2,11 +2,11 @@
 
 ## Rendszerkövetelmények
 
-A házi feladat elkészítése Windows 10 vagy 11 operációs rendszeren, Visual Studio 2022-vel történik. Windows-ra mindenképpen szükség van a fejlesztéhez és az alkalmazás futásához is. Lényeges, hogy a Visual Studio alatt telepítve legyen a ".NET Desktop development” workload (ez a Visual Studio installerben ellenőrizhető/adható meg). Ha valakinek nem áll rendelkezésére ilyen környezet, BME Cloud hozzáférés a tárgyfelelősnél igényelhető.
+A házi feladat elkészítése Windows 10 vagy 11 operációs rendszeren, Visual Studio 2026-vel történik. Windows-ra mindenképpen szükség van a fejlesztéhez és az alkalmazás futásához is. Lényeges, hogy a Visual Studio alatt telepítve legyen a ".NET Desktop development” workload (ez a Visual Studio installerben ellenőrizhető/adható meg). Ha valakinek nem áll rendelkezésére ilyen környezet, BME Cloud hozzáférés a tárgyfelelősnél igényelhető.
 
 ## Visual Studio designer hiba (ha nem nyílik meg az űrlap szerkesztésre)
 
-A Visual Studio 2022 a Git-ből frissen kiklónozott forrás esetén (amikor még nem létezik egy .csproj.user kiterjesztésű fájl) az űrlapokat  - valószínűsíthetően egy bug miatt – időnként nem hajlandó megnyitni szerkesztő módban (szerencsére ez nagyon ritka). A solution megnyitása után ez esetben ezt látjuk:
+A Visual Studio 2026 a Git-ből frissen kiklónozott forrás esetén (amikor még nem létezik egy .csproj.user kiterjesztésű fájl) az űrlapokat  - valószínűsíthetően egy bug miatt – időnként nem hajlandó megnyitni szerkesztő módban (szerencsére ez nagyon ritka). A solution megnyitása után ez esetben ezt látjuk:
 
 ![VS designer probléma](images/vs-designer-issue-1.png)
 
