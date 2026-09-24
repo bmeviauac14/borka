@@ -1,17 +1,17 @@
 # Házi feladat munkafolyamat és a Git/GitHub használata
 
-Ha még nem olvastad, célszerű itt kezdeni: [Git, GitHub, GitHub Classroom](../git-github-github-classroom/index.md)
+Ha még nem olvastad, célszerű itt kezdeni: [Git, GitHub, AHK](../git-github-github-classroom/index.md)
 
 ## Lépések
 
-Az egyes házi feladatok kiinduló keretét GitHub/GitHub Classroom segítségével publikáljuk. Az így publikált házi feladatok kiinduló környezet letöltésének és a megoldás beadásának lépései a következők:
+Az egyes házi feladatok kiinduló keretét a tanszéki AHK rendszer segítségével, GitHub repository-kban publikáljuk. Az így publikált házi feladatok kiinduló környezet letöltésének és a megoldás beadásának lépései a következők:
 
 1. :exclamation: Az elindulással ne várd meg a határidő közeledtét, legalább a saját repository létrehozásáig juss el mielőbb. Így, ha bármi elakadás lenne, még időben tudunk segíteni.
 2. Regisztrálj egy GitHub accountot (<https://github.com/>), ha még nem regisztráltál, és lépj be vele GitHub-ra.
-3. A feladathoz tartozó linket nyisd meg. Ez minden feladathoz más lesz, Moodle-ben kerülnek meghirdetésre fokozatosan a félév folyamán. A formátuma a következőhöz hasonló: <https://classroom.github.com/abcdefgh>. Ha a hivatkozásra kattintva hibát kapsz ("There was a problem authenticating with GitHub, please try again."), copy-paste-tel másold be közvetlenül a böngésző címsorába a címet.
-4. Ha kéri, adj engedélyt a GitHub Classroom alkalmazásnak, hogy használja az account adataidat.
-5. Látni fogsz egy oldalt, ahol elfogadhatod a feladatot ("Accept this assignment"). Kattints a gombra.
-6. Várd meg, amíg elkészül a repository. A GitHub nem mindig frissíti az oldalt magától, célszerű az oldal időnkénti kézi frissítésével próbálkozni (pl. F5 billentyű). Ha elkészült a repository, az oldal kiírja az új repository url-jét, amin kattintva a repository-ra lehet navigálni (ehhez hasonló: <https://github.com/bmeviauac14/hazi1-2023-username>).  De nem is feltétlen szükséges az url elmentése, a GitHub nyitóoldalán (https://github.com/) baloldalt a saját repository-k közt bármikor meg lehet később is találni.
+3. A feladathoz tartozó linket nyisd meg. Ez minden feladathoz más lesz, Moodle-ben kerülnek meghirdetésre fokozatosan a félév folyamán. A link az AHK (a tanszéki házi feladat kezelő rendszer) felületére visz.
+4. Ha kéri, jelentkezz be, illetve adj engedélyt az AHK-nak, hogy használja a GitHub account adataidat.
+5. Látni fogsz egy oldalt, ahol elfogadhatod a feladatot. Kattints az elfogadás ("Accept this assignment") gombra.
+6. Várd meg, amíg elkészül a repository. Ha elkészült a repository, az oldal kiírja az új GitHub repository url-jét, melyen (vagy a "Go to the Repository" gombra) kattintva a repository-ra lehet navigálni (ehhez hasonló: <https://github.com/bmeviauac14/hazi2-2026o-neptun>). De nem is feltétlen szükséges az url elmentése, a GitHub nyitóoldalán (https://github.com/) baloldalt a saját repository-k közt bármikor meg lehet később is találni.
 7. Klónozd le a repository-t (ennek mikéntjére rövidesen visszatérünk). Ebben találni fogsz egy keretet, vagy kiinduló kódot. Ezen dolgozz, ezt változtasd. Az alapértelmezett git ágon/branchen dolgozz (ha ez nem mond semmit, nem baj: ez csak azoknak szól, akik a git használatában jártasak és több ágon szoktak dolgozni).
 8. :exclamation: A kiinduló projektben van egy .github/workflows mappa, ennek tartalmát tilos megváltoztatni, törölni stb.
 9. :exclamation: A munka során a kiindulási repóban levő solutionben/projektben kell dolgozni, új projektet/solutiont ne hozz létre.
@@ -41,7 +41,7 @@ Egy (házi feladathoz tartozó) repository klónozásra számos mód van, egy le
 
 - A repo létrehozásakor megjelenik a GitHub felületen az url, csak kattintani kell rajta.
 - A GitHub nyitóoldalon (<https://github.com>) - ha be vagyunk lépve - listázódnak baloldalt azon repository-k, melyekhez van hozzáférésünk, csak kattintsunk a megfelelőn.
-- Amikor elkészül a repónk (a GitHub classroom feladat elfogadása során), e-mail értesítést is kapunk róla, ebben is megtalálható a link.
+- Amikor elkészül a repónk (a feladat AHK-ban történő elfogadása során), e-mail értesítést is kapunk róla, ebben is megtalálható a link.
 
 Az oldal képe nagyjából megfelel a következőnek (az mindenképpen különbség, hogy a repó url végén mindenkinél a saját felhasználóneve szerepel):
 

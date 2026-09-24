@@ -1,4 +1,4 @@
-# Git, GitHub, GitHub Classroom
+# Git, GitHub, AHK
 
 A tárgy keretében nem célunk a Git és GitHub részletes megismerése, csak a legszükségesebb lépésekre szorítkozunk, valamint a legfontosabb parancsokat használjuk ahhoz, hogy a házi feladat(ok) kiindulási programvázát hallgatóként egy dedikált GitHub repository-ból le tudjuk tölteni, illetve a kész munkát GitHubra fel tudjuk tölteni.
 
@@ -24,13 +24,13 @@ A fentieken túlmenően a Git számos további szolgáltatást biztosít (pl. te
 
 A GitHub egy online elérhető website és szolgáltatás (https://github.com), mely teljes körű Git szolgáltatást biztosít. Mindezt ráadásul – legalábbis publikus, vagyis mindenki számára hozzáférhető repositoryk vonatkozásában – teljesen ingyenesen biztosítja. Napjainkra a GitHub vált a közösségi kód (verziókezelt) tárolásának első számú platformjává, a legtöbb nyílt forráskódú projekt „otthonává”.
 
-## GitHub Classroom
+## AHK
 
-A GitHub Classroom egy ingyenesen elérhető GitHub-bal integrált szolgáltatás, mely többek között oktatási intézmények számára lehetővé teszi önálló tanulói feladatokhoz tartozó, tanulónként egyedi GitHub repository-k létrehozását, ezáltal a kiindulási kód tanulók számára történő „kiosztását”, valamint az elkészült feladatok „beszedését”.
+Az AHK a tanszék dedikált, GitHub-bal integrált házi feladat kezelő rendszere, mely lehetővé teszi az önálló hallgatói feladatokhoz tartozó, hallgatónként egyedi GitHub repository-k létrehozását, ezáltal a kiindulási kód hallgatók számára történő „kiosztását”, valamint az elkészült feladatok „beszedését”.
 
-## Git, GitHub és GitHub Classroom a tárgy kontextusában
+## Git, GitHub és AHK a tárgy kontextusában
 
-A tárgy keretében a GitHub Classroom segítségével kap minden hallgató minden házi feladatához egy dedikált, a GitHub-on hostolt repository-t, mely a megfelelő kiindulási környezettel (kiinduló Visual Studio solution-ök) inicializálásra kerül. Mindenkinek a számára dedikált repository-t kell a saját gépére `clone`-oznia, ebbe a változtatásait `commit`-olni, és a határidőig az elkészült megoldását `push`-olni (hogy GitHub-on is elérhető legyen a megoldás). A pontos lépésekre rövidesen visszatérünk.
+A tárgy keretében az AHK segítségével kap minden hallgató minden házi feladatához egy dedikált, a GitHub-on hostolt repository-t, mely a megfelelő kiindulási környezettel (kiinduló Visual Studio solution-ök) inicializálásra kerül. Mindenkinek a számára dedikált repository-t kell a saját gépére `clone`-oznia, ebbe a változtatásait `commit`-olni, és a határidőig az elkészült megoldását `push`-olni (hogy GitHub-on is elérhető legyen a megoldás). A pontos lépésekre rövidesen visszatérünk.
 
 ## Visual Studio és a Git
 
